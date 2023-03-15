@@ -1,0 +1,61 @@
+:root {
+    --body-bg-color: #636175;
+    --text-color: #837E9F;
+    --bg-cards: #2b2a36;
+    --bg-techs: #CB92B1;
+    --border-box: 20px;
+}
+
+.sidebar{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+html {
+    background-color: var(--body-bg-color);
+    color: var(--text-color);
+}
+
+body {
+    
+}
+
+
+.img{
+/* MUITO BEM */
+background: purple;
+border-radius: 50%; 
+width: 128px;
+height: 128px;
+border-style: solid ;
+border-width: 2px;
+border-color: rgb(22, 219, 22);
+
+}
+.quadrado{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-cards);
+    border-radius: var(--border-box) ;  /*Nesse caso aqui não usa o valor em porcentagem, e sim em Pixel, pois a borda desse quadrado será igual para todos os tamanhos de telas possíveis. Porcentagem usamos mais pra responsividade ou em casos exclusivos de deixar o elemento 100% arredondado*/
+    width: 348px;
+    height: 292px;
+}
+
+.quadrado h2, .quadrado p {
+    line-height: 0;
+}
+
+.lista_info {
+    background-color: var(--bg-cards);
+    width: calc(348px - 40px);
+    border-radius: var(--border-box);
+    height: auto;
+    padding: 40px 0px 40px 40px;
+}
+
+.lista_info li {
+    display: flex;
+    gap: 1rem;
+}
