@@ -43,8 +43,34 @@ border-color: rgb(22, 219, 22);
     height: 292px;
 }
 
-.quadrado h2, .quadrado p {
-    line-height: 0;
+
+
+.quadrado2 h2 {
+    display: grid; 
+    border: 0px solid;
+    border-color: #f110ae;
+    border-radius: var(--border-box) ;
+    background-color:var(--bg-cards);
+    width: 348px;
+    height: 208px;
+    left: 70px;
+    top:894px;
+    flex-direction: row;
+    justify-content:left;
+    
+   
+
+}
+
+.tecnologias p{
+
+    width:86;
+    height: 24px;
+    border-radius:30px ;
+    border:2px solid; 
+    background-color: #CB92B1;
+    margin:auto;
+    
 }
 
 .lista_info {
